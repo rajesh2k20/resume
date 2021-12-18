@@ -1,0 +1,60 @@
+body{
+  margin:0px;
+}
+#header{
+  position: relative;
+  height:74vh;
+  background-image:url(bgimg.jfif);
+  /* background-repeat: no-repeat; */
+    background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+
+}
+#header #heading{
+   position: absolute;
+   top:39%;
+   right:35%;
+   font-size: 50px;
+
+}
+#header #social_link {
+  position: absolute;
+  top:55%;
+  right:40%;
+  font-size: 50px;
+}
+.horizontal_list li{
+   display: inline-block;
+
+}
+.horizontal_list li  a{
+  margin-right:10px;
+  margin-left: 10px;
+  text-decoration: none;
+  font-size: 25px;
+   color : black;
+}
+#social_link li a img{
+  border-radius: 50%;
+   width:52px;
+   height:43px;
+}
+#social_link li a img:hover{
+ box-shadow: 0 0 6px 4px lightgray;
+}
+
+#About p{
+  position: absolute;
+  top:96%;
+}
+#About img{
+  position: absolute;
+  left:42%;
+  bottom: 6%;
+    border-radius: 50%;
+    width:16%;
+    height:30%;
+    box-shadow: 0 0 4px 6px lightgray;
+}
